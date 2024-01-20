@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SSQP</projectKey>
+    <exportDate>2024-01-20 18:18:26 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="129247359" key="SSQP-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Jonathan Gonçalves</createdBy>
+            <createdOn>2024-01-20 17:17:18 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[[CS - SPRINT 1] [PAGINA DE CADASTRO] Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[Verificar a funcionalidade de cadastro]]></objective>
+            <owner>5e40913d2a59dc0c8fe4241b</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url X]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de cadastro]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'Username' no campo 'Username']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve poder digitar somente dados no formato permitido]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'Nome completo' no campo 'Nome completo']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve poder digitar somente dados no formato de nome]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'Data de nascimento' no campo 'Data de nascimento']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve poder digitar somente dados no formato de data posteriores]]></expectedResult>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'E-mail' no campo 'E-mail']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve digitar somente dados no formato de e-mail]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'Senha' no campo 'Senha']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve criar senha seguindo a regra de neg&oacute;cio]]></expectedResult>
+                    </step>
+                    <step index="6">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio confirma 'Senha' no campo 'Confirmar senha']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve confirmar a senha sendo indentica ao campo da senha]]></expectedResult>
+                    </step>
+                    <step index="7">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio Clica no bot&atilde;o 'Criar conta']]></description>
+                        <expectedResult><![CDATA[A p&aacute;gina redireciona o usu&aacute;rio para uma tela de confirma&ccedil;&atilde;o que sua conta foi criada]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="129247445" key="SSQP-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Jonathan Gonçalves</createdBy>
+            <createdOn>2024-01-20 17:42:22 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SSQP-2</key>
+                    <summary><![CDATA[Como usuário desejo acessar a página de login na loja virtual a fim de visualizar opções de login, cadastro e redefinição de senha]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[[CS - SPRINT 1] [PAGINA DE LOGIN] Cliente deseja realizar login na plataforma]]></name>
+            <owner>5e40913d2a59dc0c8fe4241b</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio acessa url X]]></description>
+                        <expectedResult><![CDATA[Carregar a p&aacute;gina de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'Username' no campo 'Username']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio digita username]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita 'Senha' no campo 'Senha']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio digita senha]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Login']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio clica no bot&atilde;o e realiza login]]></expectedResult>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'criar nova conta' para criar uma conta]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio clica no bot&atilde;o e &eacute; redirecionado para outra p&aacute;gina]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no link 'clique aqui' para criar uma conta]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio clica no link e &eacute; redirecionado para outra p&aacute;gina]]></expectedResult>
+                    </step>
+                    <step index="6">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no link 'clique aqui para recuper&aacute;-la' para redefinir sua senha]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio clica no link e &eacute; redirecionado para outra p&aacute;gina]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="129247446" key="SSQP-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Jonathan Gonçalves</createdBy>
+            <createdOn>2024-01-20 17:42:53 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SSQP-4</key>
+                    <summary><![CDATA[Como usuário desejo redefinir minha senha]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[[CS SPRINT 1] Cliente deseja redefinir sua senha]]></name>
+            <owner>5e40913d2a59dc0c8fe4241b</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio acessa url X]]></description>
+                        <expectedResult><![CDATA[Carrega a p&aacute;gina de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no link 'clique aqui para recuper&aacute;-la']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio &eacute; redirecionado para outra p&aacute;gina]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita seu e-mail no campo 'Digite seu e-mail aqui']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio pode digitar seu e-mail]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Redefinir senha']]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio &eacute; redirecionado para outra p&aacute;gina informando que foi enviado um e-mail]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
