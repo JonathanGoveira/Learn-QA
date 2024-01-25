@@ -16,3 +16,18 @@ routes.post('/users', userController.criarUsuario)
 //PUT/PATCH - EDITAR OS DADOS
 //DELETE - DELETAR OS DADOS
 export { routes }
+
+
+
+
+// import { Router } from 'express'
+
+// const routes = Router()
+
+// const database = []
+
+// routes.get('./users', (request, response) => {
+//     return response.status(200).json(database)
+// })
+
+// export { routes }
